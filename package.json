@@ -1,0 +1,10 @@
+{
+  "name": "x-gif-sticker",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/copy-vendor.mjs" },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "0.12.10",
+    "@ffmpeg/core": "0.12.6"
+  }
+}
